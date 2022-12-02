@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Inicio</title>
+</head>
+<body>
+    <center>
+        <h1>Formulario Inicial</h1>
+    </center>
+    <form action="#" method="post">
+        <label for="nombre">Nombres :</label>
+        <input type="text" name="nombre" id="nombre" 
+        placeholder="Escriba sus nombres" required> <br>
+
+        <label for="edad"> Edad :</label>
+        <input type="number" name="edad" id="edad" required><br>
+
+        <label for="contrasena">Contraseña :</label>
+        <input type="password" name="contrasena" id="contrasena" required> <br>
+        
+        <label for="correo">Correo Electronico :</label>
+        <input type="email" name="correo" id="correo" 
+        placeholder="Escribe tu correo electronico" required> <br>
+
+        <label for="florfav"> ¿Qué tipo de flor es tu favorita?: </label>
+        <select name="florfav" id="florfav">
+            <option value="florfav">Rosas</option>
+            <option value="florfav">Margaritas</option>
+            <option value="florfav">Azucena</option>
+            <option value="florfav">Tulipán</option>
+            <option value="florfav">Orquídea</option>
+        </select> <br>
+
+        <label for="colorfav">Color favorito: </label>
+        <input type="color" name="colorfav" id="colorfav"> <br>
+
+        
+
+        
+
+        <label for="Empleado">¿Qué empleado te atendió?: </label>
+        <select name="Empleado" id="Empleado">
+            <option value="Empleado">Jaime Zapata</option>
+            <option value="Empleado">Monica Arango</option>
+            <option value="Empleado">Tomás Giraldo</option>
+            <option value="Empleado">Manuela Cano</option>
+        </select> <br>
+
+        <label for="atencion">¿Como clasificas la atencion del empleado de 1 a 10?</label>
+        <input type="range" name="atencion" id="atencion" aria-valuemin="0" aria-valuemax="10"> <br>
+
+        <label for="valorcompra">¿Cuál fue el valor de tu compra?</label>
+        <input type="int" name="valorcompra" id="valorcompra"> <br>
+
+        <label for="sistemaD">¿Usaste el sistema de domicilios?</label> <br>
+
+        <label for="sistemaD">Si</label>
+        <input type="radio" name="sistemaD" value="Si"> <br>
+
+        <label for="sistemaD">No</label>
+        <input type="radio" name="sistemaD" value="No"> <br>
+
+        <label for="Calificacion">¿Como calificas al domiciliario de 1 a 5? </label>
+        <input type="range" name="Calificacion" id="Calificacion" aria-valuemin="1" aria-valuemax="5"> <br>
+
+        <label for="horacompra">¿Qué dia y a qué hora fue tu compra? </label>
+        <input type="datetime-local" name= "horacompra" id="horacompra"> <br>
+
+        <label for="tipopago">Elige que tipo de pago usaste: </label>
+        <select name="tipopago" id="tipopago">
+            <option value="tipopago">Efectivo</option>
+            <option value="tipopago">Tarjeta</option>
+            <option value="tipopago">Cupón</option>
+        </select> <br>
+
+
+
+        
+
+        <textarea name="comentario" id="comentario" cols="15" rows="10" placeholder="Escribe tus comentarios"></textarea> <br>
+
+        <input type="reset" value="Vaciar campos">  
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Satisfacción</title>
+</head>
+<body bgcolor="#ff5f7c">
+<font color="#394651">
+    <center>
+    <font color="#394651">
+    <h1>ENCUESTA SATISFACCIÓN</h1><br>
+    </font>
+    </center>
+    
+
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr><td colspan="2">
+
+<form action="mailto:emaildelaempresaquehaceelformulario@email.com" method="post" enctype="text/plain">
+    <label for="Nombre">Nombre:</label>
+    <input type="text" name="Nombre" size="25" maxlength="50"><br><br>
+
+    <label for="Apellidos">Apellidos:</label>
+    <input type="text" name="Apellidos" size="35" maxlength="100"><br><br>
+
+    <label for="Correo">Correo electronico:</label>
+    <input type="email" value="@" name="correo" size="40" maxlength="100"><br><br>
+
+    <label for="Poblacion">Población:</label>
+    <input type="text"  size="15" maxlength="50"><br><br>
+
+    <label for="Provincia">Provincia:</label>
+    <input type="text" size="15" maxlength="50">
+
+
+
+</td></tr>
+<tr>
+<td>Edad:<br>
+
+<input type="radio" name="edad" value="020"> 0-20<br>
+
+<input type="radio" name="edad" value="2040" checked> 20-40<br>
+
+<input type="radio" name="edad" value="4060"> 40-60<br>
+
+<input type="radio" name="edad" value="60100"> 60-100</td>
+
+<tr> 
+    <td aling="left"> 
+<label for="conocer">¿Cómo nos conociste?</label><br>
+<input type="radio" name="conocer">A través de un amigo.<br>
+<input type="radio" name="conocer">A tráves de un buscador.<br>
+<input type="radio" name="conocer">Navegando por la red.<br>
+<input type="radio" name="conocer">Otros </td>
+</tr>
+
+<tr>
+    <td>
+<label for="frecuencia">Cuantas horas al dia navega por internet?</label> <br><br>
+<select name="frecuencia" size="1">
+<option value="1">2 horas al día.
+<option alue="2">4 horas al día.
+<option value="3">10 horas a la semana.
+<option value="4">20 horas al mes. <br><br>
+</td></tr>
+
+<tr>
+    <td align="left">
+<label for="opinion">Opinión sobre nuestra web</label><br>
+<textarea cols="40" rows="5" name="opinion">Escriba aquí su opinión...</textarea><br>
+</td> </tr>
+<tr>
+    <td align="left">
+<label for="sugerencias">Tiene alguna sugerencia</label> <br>
+<textarea cols="40" rows="5" name="sugerencias">Escriba aquí sus sugerencias...</textarea><br><br>
+</td></tr>
+
+
+<tr>
+<td><div align="center">
+<input type="submit" value="Enviar formulario"></div></td>
+
+<tr>
+<td> <div align="center">
+<input tye="reset" value="Borrar formulario"></div> </td>
+</tr>
+
+</font>
+</body>
+</html>
+
